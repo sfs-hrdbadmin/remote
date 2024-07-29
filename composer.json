@@ -43,7 +43,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Collective\\Remote\\": "src/"
+            "Collective\\Remote\\": "src/",
+            "phpseclib3\\": "phpseclib/"
         }
     },
     "minimum-stability": "dev"
