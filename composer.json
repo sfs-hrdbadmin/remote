@@ -42,12 +42,8 @@
         }
     },
     "autoload": {
-        "files": [
-            "phpseclib/bootstrap.php"
-        ],
         "psr-4": {
-            "Collective\\Remote\\": "src/",
-            "phpseclib3\\": "phpseclib/"
+            "Collective\\Remote\\": "src/"
         }
     },
     "minimum-stability": "dev"
